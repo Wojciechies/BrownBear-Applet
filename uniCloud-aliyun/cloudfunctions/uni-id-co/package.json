@@ -1,0 +1,23 @@
+{
+  "name": "uni-id-co",
+  "version": "1.0.38",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "DCloud",
+  "dependencies": {
+    "jsonwebtoken": "8.5.1",
+    "lodash.merge": "^4.6.2",
+    "uni-captcha": "file:../../../uni_modules/uni-captcha/uniCloud/cloudfunctions/common/uni-captcha",
+    "uni-config-center": "file:../../../uni_modules/uni-config-center/uniCloud/cloudfunctions/common/uni-config-center",
+    "uni-id-common": "file:../../../uni_modules/uni-id-common/uniCloud/cloudfunctions/common/uni-id-common",
+    "uni-open-bridge-common": "file:../../../uni_modules/uni-open-bridge-common/uniCloud/cloudfunctions/common/uni-open-bridge-common"
+  },
+  "extensions": {
+    "uni-cloud-redis": {},
+    "uni-cloud-sms": {}
+  },
+  "cloudfunction-config": {
+    "keepRunningAfterReturn": false
+  }
+}
